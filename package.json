@@ -1,0 +1,22 @@
+{
+  "name": "playwright-eggs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-iusan/playwright-eggs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor-iusan/playwright-eggs/issues"
+  },
+  "homepage": "https://github.com/victor-iusan/playwright-eggs#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  }
+}
