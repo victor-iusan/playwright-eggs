@@ -45,14 +45,5 @@ test.skip('Add all items to cart', { tag: ['@withHooks'] }, async ({ }) => {
    
 });
 
-test('items that contain sauce', { tag: ['@withHooks'] }, async ({ }) => {
-  const countItems: number = await page.locator('.inventory_item_name').count();
-  
-  for (let i : number =0; i <countItems; i++) {
-    await page.locator('uce').nth(i).click();
-    await page.waitForTimeout(2000);
-    
-  }
-   
-});
+
 
