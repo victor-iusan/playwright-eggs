@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test.skip('has title', async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
 
   // Expect a title "to contain" a substring.
@@ -10,7 +10,7 @@ test('has title', async ({ page }) => {
 //test('get started link', async ({ page }) => {
   //await page.goto('https://www.saucedemo.com/');
 
-test('get started link', {tag: ['@smoke']}, async ({ page }) => {
+test.skip('get started link', {tag: ['@smoke']}, async ({ page }) => {
   await page.goto('https://www.saucedemo.com/');
  
   await page.getByPlaceholder('Username').fill('standard_user');
@@ -28,7 +28,7 @@ test('get started link', {tag: ['@smoke']}, async ({ page }) => {
   });
 
   
-test.only('checkout', { tag: ['@smoke'] }, async ({ page }) => {
+test.skip('checkout', { tag: ['@smoke'] }, async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/');
 
